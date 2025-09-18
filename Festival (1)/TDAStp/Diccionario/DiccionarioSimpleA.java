@@ -7,7 +7,7 @@ import TDAStp.Conjuntoinfo.ConjuntoTDA;
 
 public class DiccionarioSimpleA implements DiccionarioSimpleTDA {
     private Elemento[] elementos;
-    private static int cant;
+    private int cant;
     @Override
     public void InicializarDiccionario() {
         elementos= new Elemento[100];
@@ -59,6 +59,7 @@ public class DiccionarioSimpleA implements DiccionarioSimpleTDA {
     }
 
     }
+
 
 
 
