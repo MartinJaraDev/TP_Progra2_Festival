@@ -60,10 +60,11 @@ public class ConjuntoLD implements ConjuntoAsistentesTDA {
     @Override
     public boolean Pertenece(int x) {
         Nodo aux= c;
-        while (aux != null && aux.sig.info!= x) {
+        while (aux != null && aux.info!= x) {
             aux = aux.sig;
         }
         return (aux != null);
     }
 
 }
+
