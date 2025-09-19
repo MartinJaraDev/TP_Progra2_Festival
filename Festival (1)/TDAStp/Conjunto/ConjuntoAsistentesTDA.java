@@ -1,7 +1,5 @@
 package TDAStp.Conjunto;
-
 import Sistema.Asistente;
-
 public interface ConjuntoAsistentesTDA {
     void InicializarConjunto(); // pre: no aplica.
     void Agregar(int x);        // pre: conjunto inicializado.

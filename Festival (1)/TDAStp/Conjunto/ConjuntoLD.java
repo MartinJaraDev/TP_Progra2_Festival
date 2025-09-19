@@ -1,8 +1,5 @@
 package TDAStp.Conjunto;
 
-
-
-
 public class ConjuntoLD implements ConjuntoAsistentesTDA {
 
     private class Nodo{

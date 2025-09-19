@@ -13,4 +13,14 @@ public class Asistente {
         this.nombre = nombre;
         this.tipoEntrada = tipoEntrada;
     }
+
+
+    @Override
+    public String toString() {
+        return "Asistente{" +
+                "nombre='" + nombre + '\'' +
+                ", DNI=" + DNI +
+                ", tipoEntrada='" + tipoEntrada + '\'' +
+                '}';
+    }
 }
